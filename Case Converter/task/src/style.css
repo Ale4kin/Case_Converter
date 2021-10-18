@@ -1,0 +1,92 @@
+* {
+    margin: 50px 200px;
+    padding: 0;
+}
+body {
+    background-color: antiquewhite;
+}
+
+.title {
+    position: relative;
+    margin: 50px auto 0;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Noto Serif', serif;
+}
+
+#text{
+    position: relative;
+    margin: 30px auto 0;
+
+}
+
+.button {
+    font-family: 'Noto Serif', serif;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    border-radius: 15px;
+    border: 2px solid green;
+    color: black;
+}
+
+.button1:hover {
+    color: white;
+    background-color: green;
+}
+
+.button2 {
+    border-radius: 15px;
+    border: 2px solid blue;
+    color: black;
+}
+.button2:hover {
+    color: white;
+    background-color: blue;
+}
+
+.button3 {
+    border-radius: 15px;
+    border: 2px solid coral;
+    color: black;
+}
+
+.button3:hover {
+    color: white;
+    background-color: coral;
+}
+
+.button4 {
+    border-radius: 15px;
+    border: 2px solid rebeccapurple;
+    color: black;
+}
+
+.button4:hover {
+    color: white;
+    background-color: rebeccapurple;
+}
+
+#save-text-file {
+    color: black;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+
+#save-text-file:hover {
+    color: white;
+    background-color: gray;
+}
+
+
